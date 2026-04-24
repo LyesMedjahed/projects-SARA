@@ -22,7 +22,7 @@ async function loadLayout() {
     // =====================
     // FOOTER
     // =====================
-    const footerResponse = await fetch("components/componentFooter.html");
+    const footerResponse = await fetch("../components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     const footerEl = document.getElementById("footer");
 
