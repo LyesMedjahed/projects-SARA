@@ -2,16 +2,16 @@
 --- Search input By Lyes: 21/01/2026
 ================================== ====*/
 
-import products from "/productsData.js";
+import products from "productsData.js";
 
 // mapping produit → page HTML
 const productPageMap = {
-  "dress": "/pages/products/dresses.html",
-  "jeans": "/pages/products/jeans.html",
-  "shoes": "/pages/products/shoes.html",
-  "bag": "/pages/products/bags.html",
-  "coats": "/pages/products/coats.html",
-  "jewellery": "/pages/products/jewellery.html"
+  "dress": "pages/products/dresses.html",
+  "jeans": "pages/products/jeans.html",
+  "shoes": "pages/products/shoes.html",
+  "bag": "pages/products/bags.html",
+  "coats": "pages/products/coats.html",
+  "jewellery": "pages/products/jewellery.html"
 };
 
 // attendre que l'élément existe dans le DOM
