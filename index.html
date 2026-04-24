@@ -7,9 +7,9 @@
     <link rel="icon" href="./MultiMedia/SARA.png" type="image/png" sizes="32x32">
 
     <!--components-->
-     <link rel="stylesheet" href="./components/componentFooter.css">
-         <script type="module" src="JavaScript/renderProducts.js"></script>
-    <script type="module" src="JavaScript/loaderComponent.js" defer></script>
+     <link rel="stylesheet" href="../components/componentFooter.css">
+         <script type="module" src="../JavaScript/renderProducts.js"></script>
+    <script type="module" src="../JavaScript/loaderComponent.js" defer></script>
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,10 +31,10 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
-    <link rel="stylesheet" href="home/style.css" />
-    <script src="JavaScript/animations.js" defer></script>
-    <script type="module" src="JavaScript/main.js" defer></script>
-    <script type="module" src="JavaScript/renderProducts.js" defer></script>
+    <link rel="stylesheet" href="./home/style.css" />
+    <script src="./JavaScript/animations.js" defer></script>
+    <script type="module" src="./JavaScript/main.js" defer></script>
+    <script type="module" src="./JavaScript/renderProducts.js" defer></script>
   </head>
   <body>
     <header>
@@ -49,7 +49,7 @@
           <input class="search" type="search" id="search-input" placeholder="search a product..." autocomplete="off"/>
 
           <!--Basket-->
-          <a href="pages/cart/cart.html">
+          <a href="./pages/cart/cart.html">
            <div class="shopping-cart">
             <span class="material-symbols-outlined cart-icon" id="cart">shopping_cart</span>
             <span class="shopping-cart-accounter" id="cart-count">0</span>
@@ -57,7 +57,7 @@
           </a>
 
           <!--Account-->
-          <a href="pages/account/account.html"><span class="material-symbols-outlined">person</span></a>
+          <a href="./pages/account/account.html"><span class="material-symbols-outlined">person</span></a>
         </div>
       </nav>
     </header>
@@ -65,7 +65,7 @@
     <main>
       <section>
         <div>
-          <video src="MultiMedia/Model.mp4" autoplay loop muted></video>
+          <video src="./MultiMedia/Model.mp4" autoplay loop muted></video>
         </div>
 
         <div class="menu">
@@ -193,6 +193,6 @@
 
     <div id="footer"></div>
 
-    <script type="module" src="JavaScript/search.js" defer></script>
+    <script type="module" src="./JavaScript/search.js" defer></script>
   </body>
 </html>

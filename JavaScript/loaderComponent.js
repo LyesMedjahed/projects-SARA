@@ -1,14 +1,14 @@
 // Add the HEADER & FOOTER to pages
 // By Lyes MEDJAHED
 
-import { calculation } from "JavaScript/cartCounter.js";
+import { calculation } from "../JavaScript/cartCounter.js";
 
 async function loadLayout() {
   try {
     // =====================
     // HEADER
     // =====================
-    const headerResponse = await fetch("components/componentHeader.html");
+    const headerResponse = await fetch("./components/componentHeader.html");
     const headerHTML = await headerResponse.text();
     const headerEl = document.getElementById("header");
 
@@ -22,7 +22,7 @@ async function loadLayout() {
     // =====================
     // FOOTER
     // =====================
-    const footerResponse = await fetch("../components/componentFooter.html");
+    const footerResponse = await fetch("./components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     const footerEl = document.getElementById("footer");
 
@@ -34,7 +34,7 @@ async function loadLayout() {
     // MENU MOBILE
     // =====================
     const menuScript = document.createElement("script");
-    menuScript.src = "JavaScript/mobileMenu.js";
+    menuScript.src = "./JavaScript/mobileMenu.js";
     menuScript.defer = true;
     document.body.appendChild(menuScript);
 
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", loadLayout);
 // =====================
 async function loadPaymentPopup() {
   try {
-    const res = await fetch("components/payment.html");
+    const res = await fetch("./components/payment.html");
     const html = await res.text();
     document.body.insertAdjacentHTML("beforeend", html);
   } catch (error) {
@@ -68,7 +68,7 @@ async function loadComingSoon() {
   if (!soonContainer) return;
 
   try {
-    const response = await fetch("components/comingSoon.html");
+    const response = await fetch("./components/comingSoon.html");
     const html = await response.text();
     soonContainer.innerHTML = html;
   } catch (error) {
