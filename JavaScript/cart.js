@@ -1,5 +1,5 @@
-import { initPaymentPopup } from "../paymentPopup.js";
-import { calculation } from "../cartCounter.js";
+import { initPaymentPopup } from "/paymentPopup.js";
+import { calculation } from "/cartCounter.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   const cartContainer = document.getElementById('cart-container');
