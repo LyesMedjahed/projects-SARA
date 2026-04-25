@@ -8,7 +8,7 @@ async function loadLayout() {
     // =====================
     // HEADER
     // =====================
-    const headerResponse = await fetch("/components/componentHeader.html");
+    const headerResponse = await fetch("./components/componentHeader.html");
     const headerHTML = await headerResponse.text();
     const headerEl = document.getElementById("header");
 
@@ -22,7 +22,7 @@ async function loadLayout() {
     // =====================
     // FOOTER
     // =====================
-    const footerResponse = await fetch("/components/componentFooter.html");
+    const footerResponse = await fetch("./components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     const footerEl = document.getElementById("footer");
 
