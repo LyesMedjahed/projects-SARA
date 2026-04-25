@@ -2,7 +2,7 @@
 --- Search input By Lyes: 21/01/2026
 ================================== ====*/
 
-import products from "/productsData.js";
+import products from "/JavaScript/productsData.js";
 
 // mapping produit → page HTML
 const productPageMap = {
