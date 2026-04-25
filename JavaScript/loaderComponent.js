@@ -1,14 +1,14 @@
 // Add the HEADER & FOOTER to pages
 // By Lyes MEDJAHED
 
-import { calculation } from "./JavaScript/cartCounter.js";
+import { calculation } from "/JavaScript/cartCounter.js";
 
 async function loadLayout() {
   try {
     // =====================
     // HEADER
     // =====================
-    const headerResponse = await fetch("./components/componentHeader.html");
+    const headerResponse = await fetch("/components/componentHeader.html");
     const headerHTML = await headerResponse.text();
     const headerEl = document.getElementById("header");
 
@@ -22,7 +22,7 @@ async function loadLayout() {
     // =====================
     // FOOTER
     // =====================
-    const footerResponse = await fetch("/projects-SARA/components/componentFooter.html");
+    const footerResponse = await fetch("/components/componentFooter.html");
     const footerHTML = await footerResponse.text();
     const footerEl = document.getElementById("footer");
 
