@@ -2,7 +2,7 @@
 //Author: Lyes MEDJAHED 
 //October 2025
 
-import { calculation } from "/JavaScript/cartCounter.js";
+import { calculation } from "./JavaScript/cartCounter.js";
 
 class Products{
     constructor(title, price, size, color, description, stock){
@@ -87,7 +87,7 @@ calculation();
 
 
 //load coming soon
-import { coming } from 'JavaScript/loaderComponent.js';
+import { coming } from './JavaScript/loaderComponent.js';
 
 // Appel de la fonction pour charger le composant
 document.addEventListener('DOMContentLoaded', () => {
