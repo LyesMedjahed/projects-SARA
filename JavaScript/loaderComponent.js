@@ -1,7 +1,7 @@
 // Add the HEADER & FOOTER to pages
 // By Lyes MEDJAHED
 
-import { calculation } from "/JavaScript/cartCounter.js";
+import { calculation } from "./JavaScript/cartCounter.js";
 
 async function loadLayout() {
   try {
