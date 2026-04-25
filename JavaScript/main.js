@@ -2,7 +2,7 @@
 //Author: Lyes MEDJAHED 
 //October 2025
 
-import { calculation } from "../JavaScript/cartCounter.js";
+import { calculation } from "./JavaScript/cartCounter.js";
 
 class Products{
     constructor(title, price, size, color, description, stock){
