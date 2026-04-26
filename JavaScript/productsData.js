@@ -4,7 +4,7 @@
 const products = [
   {
     id: 1,
-    img: ["/MultiMedia/dress.png", "/MultiMedia/productsImgs/dressblack.png"],
+    img: ["/projects-SARA/MultiMedia/dress.png", "/projects-SARA/MultiMedia/productsImgs/dressblack.png"],
     productName: "Dress",
     price: "1023€",
     size: "S | M | L | XL",
@@ -26,7 +26,7 @@ Ideal For: Special Occasions, Evening Events`
 
   {
     id: 2,
-    img: ["/MultiMedia/productsImgs/bags/bagbeige.png", "/MultiMedia/productsImgs/bags/bagblack.png", "/MultiMedia/productsImgs/bags/bagbrown.png", "/MultiMedia/productsImgs/bags/bagwhite.png"],
+    img: ["/projects-SARA/MultiMedia/productsImgs/bags/bagbeige.png", "/projects-SARA/MultiMedia/productsImgs/bags/bagblack.png", "/projects-SARA/MultiMedia/productsImgs/bags/bagbrown.png", "/projects-SARA/MultiMedia/productsImgs/bags/bagwhite.png"],
     productName: "Bag",
     price: "998€",
     size: "One size",
@@ -61,7 +61,7 @@ Style: Classic / Luxury`
 
   {
     id: 3,
-    img: ["/MultiMedia/productsImgs/coats/coatbeige.png", "/MultiMedia/productsImgs/coats/coatblack.png", "/MultiMedia/productsImgs/coats/coatbrown.png", "/MultiMedia/productsImgs/coats/coatgrena.png", "/MultiMedia/productsImgs/coats/coatred.png"],
+    img: ["/projects-SARA/MultiMedia/productsImgs/coats/coatbeige.png", "/projects-SARA/MultiMedia/productsImgs/coats/coatblack.png", "/projects-SARA/MultiMedia/productsImgs/coats/coatbrown.png", "/projects-SARA/MultiMedia/productsImgs/coats/coatgrena.png", "/projects-SARA/MultiMedia/productsImgs/coats/coatred.png"],
     productName: "Coats",
     price: "1339€",
     size: "S | M | L | XL",
@@ -97,7 +97,7 @@ Occasion: Work, Casual, Evening, Winter`
 
   {
     id: 4,
-    img: ["/MultiMedia/productsImgs/jeans/jeanblue.png", "/MultiMedia/productsImgs/jeans/jeannavy.png", "/MultiMedia/productsImgs/jeans/jeanblack.png"],
+    img: ["/projects-SARA/MultiMedia/productsImgs/jeans/jeanblue.png", "/projects-SARA/MultiMedia/productsImgs/jeans/jeannavy.png", "/projects-SARA/MultiMedia/productsImgs/jeans/jeanblack.png"],
     productName: "Jeans",
     price: "123€",
     size: "S | M | L | XL",
@@ -132,7 +132,7 @@ Style: Casual / Modern Chic`
 
   {
     id: 5,
-    img: ["/MultiMedia/productsImgs/jewellery/jewellery2.png"],
+    img: ["/projects-SARA/MultiMedia/productsImgs/jewellery/jewellery2.png"],
     productName: "Jewellery",
     price: "1023€",
     size: "One size",
@@ -149,7 +149,7 @@ Wear it and feel the magic.`
 
   {
     id: 6,
-    img: ["/MultiMedia/productsImgs/shoes/shoesbeige.png", "/MultiMedia/productsImgs/shoes/shoesblack.png", "/MultiMedia/productsImgs/shoes/shoesbrown.png", "/MultiMedia/productsImgs/shoes/shoesgreen.png", "./MultiMedia/productsImgs/shoes/shoesgrena.png"],
+    img: ["/projects-SARA/MultiMedia/productsImgs/shoes/shoesbeige.png", "/projects-SARA/MultiMedia/productsImgs/shoes/shoesblack.png", "/projects-SARA/MultiMedia/productsImgs/shoes/shoesbrown.png", "/projects-SARA/MultiMedia/productsImgs/shoes/shoesgreen.png", "/projects-SARA/MultiMedia/productsImgs/shoes/shoesgrena.png"],
     productName: "Shoes",
     price: "775€",
     size: "S | M | L | XL",
