@@ -34,7 +34,7 @@ async function loadLayout() {
     // MENU MOBILE
     // =====================
     const menuScript = document.createElement("script");
-    menuScript.src = "./JavaScript/mobileMenu.js";
+    menuScript.src = "/projects-SARA/JavaScript/mobileMenu.js";
     menuScript.defer = true;
     document.body.appendChild(menuScript);
 
