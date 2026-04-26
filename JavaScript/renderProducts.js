@@ -1,6 +1,6 @@
-import products from "./JavaScript/productsData.js";
-import { initPaymentPopup } from "./JavaScript/paymentPopup.js";
-import { calculation } from "./JavaScript/cartCounter.js";
+import products from "./productsData.js";
+import { initPaymentPopup } from "./paymentPopup.js";
+import { calculation } from "./cartCounter.js";
 
 // ==================
 // CLASSE RENDER
