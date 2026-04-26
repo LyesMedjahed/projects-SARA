@@ -3,6 +3,7 @@
 //October 2025
 
 import { calculation } from "./cartCounter.js";
+import { coming } from "./loaderComponent.js";
 
 class Products{
     constructor(title, price, size, color, description, stock){
@@ -85,9 +86,6 @@ close.addEventListener('click', function(){
 
 calculation();
 
-
-//load coming soon
-import { coming } from './JavaScript/loaderComponent.js';
 
 // Appel de la fonction pour charger le composant
 document.addEventListener('DOMContentLoaded', () => {
